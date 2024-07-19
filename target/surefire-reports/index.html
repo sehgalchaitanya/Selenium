@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Login_Test_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Login Test Suite</span>
+              <span class="suite-name border-passed">Login Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Login_Test_Suite" class="hide-methods failed suite-Login_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Login_Test_Suite -->
-                      <a href="#" panel-name="suite-Login_Test_Suite" class="show-methods failed suite-Login_Test_Suite"> (show)</a> <!-- show-methods failed suite-Login_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Login_Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Login_Test_Suite" title="web.tests.TestScripts.FrontDoorTestScript" class="method navigator-link" hash-for-method="selectTimeSlot">selectTimeSlot</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Login_Test_Suite -->
+                    <span class="method-stats">17 methods,   17 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -192,6 +178,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="web.tests.TestScripts.FrontDoorTestScript" class="method navigator-link" hash-for-method="selectTimeSlot">selectTimeSlot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Login_Test_Suite" title="web.tests.TestScripts.FrontDoorTestScript" class="method navigator-link" hash-for-method="testFrontDoorSignIn(2ebtestncal1, pleasanton02)">testFrontDoorSignIn(2ebtestncal1, pleasanton02)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -207,26 +198,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Login_Test_Suite" class="panel Login_Test_Suite">
-          <div class="suite-Login_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">web.tests.TestScripts.FrontDoorTestScript</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectTimeSlot">
-                  </a> <!-- selectTimeSlot -->
-                  <span class="method-name">selectTimeSlot</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at web.tests.TestScripts.FrontDoorTestScript.selectTimeSlot(FrontDoorTestScript.java:522)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 38 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Login_Test_Suite-class-failed -->
           <div class="suite-Login_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -340,6 +311,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="selectTimeSlot">
+                  </a> <!-- selectTimeSlot -->
+                  <span class="method-name">selectTimeSlot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testFrontDoorSignIn(2ebtestncal1, pleasanton02)">
                   </a> <!-- testFrontDoorSignIn(2ebtestncal1, pleasanton02) -->
                   <span class="method-name">testFrontDoorSignIn</span>
@@ -407,76 +385,76 @@ data.addRows(17);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'navigateToFrontDoorScreen')
 data.setCell(0, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(0, 3, 65987);
+data.setCell(0, 3, 94650);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'goToscheduleMedicalAppointment')
 data.setCell(1, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(1, 3, 63320);
+data.setCell(1, 3, 66773);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'selectMonthFromCalendar')
 data.setCell(2, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(2, 3, 52750);
+data.setCell(2, 3, 59284);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'selectRadioTypeInPerson')
+data.setCell(3, 1, 'navigateToScheduleAnAppointment')
 data.setCell(3, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(3, 3, 48512);
+data.setCell(3, 3, 48911);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'selectTimeSlot')
+data.setCell(4, 1, 'selectRadioTypeInPerson')
 data.setCell(4, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(4, 3, 47214);
+data.setCell(4, 3, 40609);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'navigateToScheduleAnAppointment')
+data.setCell(5, 1, 'selectRadioReasonReturnOrFollowUp')
 data.setCell(5, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(5, 3, 41538);
+data.setCell(5, 3, 35586);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testFrontDoorSignIn')
+data.setCell(6, 1, 'selectNextButtonInScheduleAppointmentPage')
 data.setCell(6, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(6, 3, 23948);
+data.setCell(6, 3, 30266);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'selectPrimaryIconPlusForAppointment')
+data.setCell(7, 1, 'selectNextButtonInScheduleAppointmentPageAgain')
 data.setCell(7, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(7, 3, 21463);
+data.setCell(7, 3, 29287);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'selectRadioReasonReturnOrFollowUp')
+data.setCell(8, 1, 'testFrontDoorSignIn')
 data.setCell(8, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(8, 3, 19178);
+data.setCell(8, 3, 26576);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'selectNextButtonInScheduleAppointmentPageAgain')
+data.setCell(9, 1, 'selectPrimaryIconPlusForAppointment')
 data.setCell(9, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(9, 3, 17441);
+data.setCell(9, 3, 25059);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'feedbackBannerOnLandingPage')
+data.setCell(10, 1, 'selectRadioIllnesOtherConcerns')
 data.setCell(10, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(10, 3, 15219);
+data.setCell(10, 3, 20159);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'selectRadioChooseAnotherDate')
+data.setCell(11, 1, 'feedbackBannerOnLandingPage')
 data.setCell(11, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(11, 3, 13646);
+data.setCell(11, 3, 19537);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'selectRadioIllnesOtherConcerns')
+data.setCell(12, 1, 'selectTimeSlot')
 data.setCell(12, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(12, 3, 10706);
+data.setCell(12, 3, 17021);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'selectNextButtonInScheduleAppointmentPage')
+data.setCell(13, 1, 'selectRadioChooseAnotherDate')
 data.setCell(13, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(13, 3, 9796);
+data.setCell(13, 3, 13578);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'selectFacilityDropdown')
 data.setCell(14, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(14, 3, 5601);
+data.setCell(14, 3, 12015);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'selectDatePicker')
+data.setCell(15, 1, 'clickOnAppointments_Care')
 data.setCell(15, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(15, 3, 4733);
+data.setCell(15, 3, 6490);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'clickOnAppointments_Care')
+data.setCell(16, 1, 'selectDatePicker')
 data.setCell(16, 2, 'web.tests.TestScripts.FrontDoorTestScript')
-data.setCell(16, 3, 3427);
+data.setCell(16, 3, 5385);
 window.suiteTableData['Login_Test_Suite']= { tableData: data, tableDiv: 'times-div-Login_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
               <div id="times-div-Login_Test_Suite">
               </div> <!-- times-div-Login_Test_Suite -->
             </div> <!-- times-div -->
@@ -509,77 +487,75 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">navigateToFrontDoorScreen</span>
-                <span class="method-start">7768 ms</span>
+                <span class="method-start">39688 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testFrontDoorSignIn(2ebtestncal1, pleasanton02)</span>
-                <span class="method-start">74085 ms</span>
+                <span class="method-start">134771 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">feedbackBannerOnLandingPage</span>
-                <span class="method-start">98045 ms</span>
+                <span class="method-start">161363 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickOnAppointments_Care</span>
-                <span class="method-start">113266 ms</span>
+                <span class="method-start">180904 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">navigateToScheduleAnAppointment</span>
-                <span class="method-start">116696 ms</span>
+                <span class="method-start">187400 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">goToscheduleMedicalAppointment</span>
-                <span class="method-start">158237 ms</span>
+                <span class="method-start">236317 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectPrimaryIconPlusForAppointment</span>
-                <span class="method-start">221572 ms</span>
+                <span class="method-start">303115 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectNextButtonInScheduleAppointmentPage</span>
-                <span class="method-start">243043 ms</span>
+                <span class="method-start">328181 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectFacilityDropdown</span>
-                <span class="method-start">252843 ms</span>
+                <span class="method-start">358452 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectNextButtonInScheduleAppointmentPageAgain</span>
-                <span class="method-start">258454 ms</span>
+                <span class="method-start">370478 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectRadioIllnesOtherConcerns</span>
-                <span class="method-start">275898 ms</span>
+                <span class="method-start">399767 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectRadioReasonReturnOrFollowUp</span>
-                <span class="method-start">286608 ms</span>
+                <span class="method-start">419931 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectRadioTypeInPerson</span>
-                <span class="method-start">305788 ms</span>
+                <span class="method-start">455522 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectRadioChooseAnotherDate</span>
-                <span class="method-start">354303 ms</span>
+                <span class="method-start">496144 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectDatePicker</span>
-                <span class="method-start">367951 ms</span>
+                <span class="method-start">509723 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectMonthFromCalendar</span>
-                <span class="method-start">372687 ms</span>
+                <span class="method-start">515111 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">selectTimeSlot</span>
-                <span class="method-start">425440 ms</span>
+                <span class="method-start">574407 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">472674 ms</span>
+                <span class="method-start">591431 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

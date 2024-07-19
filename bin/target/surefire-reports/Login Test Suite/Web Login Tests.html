@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Web Login Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>16/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 18 13:48:42 PDT 2024</td>
+<td>Started on:</td><td>Fri Jul 19 13:46:38 PDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>472 seconds (472975 ms)</td>
+<tr><td>Total time:</td><td>591 seconds (591814 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,65 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.selectTimeSlot()'><b>selectTimeSlot</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at web.tests.TestScripts.FrontDoorTestScript.selectTimeSlot(FrontDoorTestScript.java:522)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 38 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace433767126", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace433767126'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1067)
-	at org.testng.Assert.assertEquals(Assert.java:1031)
-	at org.testng.Assert.assertEquals(Assert.java:1077)
-	at web.tests.TestScripts.FrontDoorTestScript.selectTimeSlot(FrontDoorTestScript.java:522)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>47</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -135,85 +76,90 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.selectMonthFromCalendar()'><b>selectMonthFromCalendar</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td title='web.tests.TestScripts.FrontDoorTestScript.selectNextButtonInScheduleAppointmentPage()'><b>selectNextButtonInScheduleAppointmentPage</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
 <td></td>
-<td>52</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
+<td>30</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
 <tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.navigateToScheduleAnAppointment()'><b>navigateToScheduleAnAppointment</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td title='web.tests.TestScripts.FrontDoorTestScript.clickOnAppointments_Care()'><b>clickOnAppointments_Care</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
 <td></td>
-<td>41</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
+<td>6</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
 <tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.selectRadioTypeInPerson()'><b>selectRadioTypeInPerson</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td title='web.tests.TestScripts.FrontDoorTestScript.selectRadioIllnesOtherConcerns()'><b>selectRadioIllnesOtherConcerns</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
 <td></td>
-<td>48</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.goToscheduleMedicalAppointment()'><b>goToscheduleMedicalAppointment</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
-<td></td>
-<td>63</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.selectDatePicker()'><b>selectDatePicker</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
-<td></td>
-<td>4</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.selectNextButtonInScheduleAppointmentPageAgain()'><b>selectNextButtonInScheduleAppointmentPageAgain</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
-<td></td>
-<td>17</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
+<td>20</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
 <tr>
 <td title='web.tests.TestScripts.FrontDoorTestScript.selectRadioChooseAnotherDate()'><b>selectRadioChooseAnotherDate</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
 <td></td>
 <td>13</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.testFrontDoorSignIn()'><b>testFrontDoorSignIn</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript<br>Parameters: 2ebtestncal1, pleasanton02</td>
-<td></td>
-<td>23</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.feedbackBannerOnLandingPage()'><b>feedbackBannerOnLandingPage</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
-<td></td>
-<td>15</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.clickOnAppointments_Care()'><b>clickOnAppointments_Care</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
-<td></td>
-<td>3</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.selectRadioIllnesOtherConcerns()'><b>selectRadioIllnesOtherConcerns</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
-<td></td>
-<td>10</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.selectNextButtonInScheduleAppointmentPage()'><b>selectNextButtonInScheduleAppointmentPage</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
-<td></td>
-<td>9</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.selectRadioReasonReturnOrFollowUp()'><b>selectRadioReasonReturnOrFollowUp</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
-<td></td>
-<td>19</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
-<tr>
-<td title='web.tests.TestScripts.FrontDoorTestScript.selectFacilityDropdown()'><b>selectFacilityDropdown</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
-<td></td>
-<td>5</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
 <tr>
 <td title='web.tests.TestScripts.FrontDoorTestScript.navigateToFrontDoorScreen()'><b>navigateToFrontDoorScreen</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
 <td></td>
-<td>65</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
+<td>94</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.selectTimeSlot()'><b>selectTimeSlot</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td></td>
+<td>17</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.navigateToScheduleAnAppointment()'><b>navigateToScheduleAnAppointment</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td></td>
+<td>48</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.selectDatePicker()'><b>selectDatePicker</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td></td>
+<td>5</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.goToscheduleMedicalAppointment()'><b>goToscheduleMedicalAppointment</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td></td>
+<td>66</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.selectFacilityDropdown()'><b>selectFacilityDropdown</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td></td>
+<td>12</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.selectRadioTypeInPerson()'><b>selectRadioTypeInPerson</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td></td>
+<td>40</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
 <tr>
 <td title='web.tests.TestScripts.FrontDoorTestScript.selectPrimaryIconPlusForAppointment()'><b>selectPrimaryIconPlusForAppointment</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
 <td></td>
-<td>21</td>
-<td>web.tests.TestScripts.FrontDoorTestScript@53fe15ff</td></tr>
+<td>25</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.selectMonthFromCalendar()'><b>selectMonthFromCalendar</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td></td>
+<td>59</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.feedbackBannerOnLandingPage()'><b>feedbackBannerOnLandingPage</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td></td>
+<td>19</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.selectNextButtonInScheduleAppointmentPageAgain()'><b>selectNextButtonInScheduleAppointmentPageAgain</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td></td>
+<td>29</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.testFrontDoorSignIn()'><b>testFrontDoorSignIn</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript<br>Parameters: 2ebtestncal1, pleasanton02</td>
+<td></td>
+<td>26</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
+<tr>
+<td title='web.tests.TestScripts.FrontDoorTestScript.selectRadioReasonReturnOrFollowUp()'><b>selectRadioReasonReturnOrFollowUp</b><br>Test class: web.tests.TestScripts.FrontDoorTestScript</td>
+<td></td>
+<td>35</td>
+<td>web.tests.TestScripts.FrontDoorTestScript@76a4ebf2</td></tr>
 </table><p>
 </body>
 </html>
