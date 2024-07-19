@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-18T13:48:42 GMT-07:00" name="Login Test Suite" finished-at="2024-07-18T13:56:35 GMT-07:00" duration-ms="472975">
+    <groups>
+    </groups>
+    <test started-at="2024-07-18T13:48:42 GMT-07:00" name="Web Login Tests" finished-at="2024-07-18T13:56:35 GMT-07:00" duration-ms="472975">
+      <class name="web.tests.TestScripts.FrontDoorTestScript">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:48:42 GMT-07:00" name="setUp" finished-at="2024-07-18T13:48:50 GMT-07:00" duration-ms="7748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToFrontDoorScreen()[pri:1, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:48:50 GMT-07:00" name="navigateToFrontDoorScreen" finished-at="2024-07-18T13:49:56 GMT-07:00" duration-ms="65987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToFrontDoorScreen -->
+        <test-method signature="testFrontDoorSignIn(java.lang.String,java.lang.String)[pri:2, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:49:56 GMT-07:00" name="testFrontDoorSignIn" data-provider="WebLoginDataFromExcel" finished-at="2024-07-18T13:50:20 GMT-07:00" duration-ms="23948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2ebtestncal1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pleasanton02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrontDoorSignIn -->
+        <test-method signature="feedbackBannerOnLandingPage()[pri:3, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:50:20 GMT-07:00" name="feedbackBannerOnLandingPage" finished-at="2024-07-18T13:50:35 GMT-07:00" depends-on-methods="web.tests.TestScripts.FrontDoorTestScript.testFrontDoorSignIn" duration-ms="15219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedbackBannerOnLandingPage -->
+        <test-method signature="clickOnAppointments_Care()[pri:4, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:50:35 GMT-07:00" name="clickOnAppointments_Care" finished-at="2024-07-18T13:50:39 GMT-07:00" duration-ms="3427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAppointments_Care -->
+        <test-method signature="navigateToScheduleAnAppointment()[pri:5, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:50:39 GMT-07:00" name="navigateToScheduleAnAppointment" finished-at="2024-07-18T13:51:20 GMT-07:00" duration-ms="41538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToScheduleAnAppointment -->
+        <test-method signature="goToscheduleMedicalAppointment()[pri:6, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:51:20 GMT-07:00" name="goToscheduleMedicalAppointment" finished-at="2024-07-18T13:52:23 GMT-07:00" duration-ms="63320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToscheduleMedicalAppointment -->
+        <test-method signature="selectPrimaryIconPlusForAppointment()[pri:7, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:52:23 GMT-07:00" name="selectPrimaryIconPlusForAppointment" finished-at="2024-07-18T13:52:45 GMT-07:00" depends-on-methods="web.tests.TestScripts.FrontDoorTestScript.goToscheduleMedicalAppointment" duration-ms="21463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPrimaryIconPlusForAppointment -->
+        <test-method signature="selectNextButtonInScheduleAppointmentPage()[pri:8, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:52:45 GMT-07:00" name="selectNextButtonInScheduleAppointmentPage" finished-at="2024-07-18T13:52:55 GMT-07:00" depends-on-methods="web.tests.TestScripts.FrontDoorTestScript.selectPrimaryIconPlusForAppointment" duration-ms="9796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNextButtonInScheduleAppointmentPage -->
+        <test-method signature="selectFacilityDropdown()[pri:9, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:52:55 GMT-07:00" name="selectFacilityDropdown" finished-at="2024-07-18T13:53:00 GMT-07:00" depends-on-methods="web.tests.TestScripts.FrontDoorTestScript.selectNextButtonInScheduleAppointmentPage" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFacilityDropdown -->
+        <test-method signature="selectNextButtonInScheduleAppointmentPageAgain()[pri:10, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:53:00 GMT-07:00" name="selectNextButtonInScheduleAppointmentPageAgain" finished-at="2024-07-18T13:53:18 GMT-07:00" duration-ms="17441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNextButtonInScheduleAppointmentPageAgain -->
+        <test-method signature="selectRadioIllnesOtherConcerns()[pri:11, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:53:18 GMT-07:00" name="selectRadioIllnesOtherConcerns" finished-at="2024-07-18T13:53:29 GMT-07:00" duration-ms="10706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRadioIllnesOtherConcerns -->
+        <test-method signature="selectRadioReasonReturnOrFollowUp()[pri:12, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:53:29 GMT-07:00" name="selectRadioReasonReturnOrFollowUp" finished-at="2024-07-18T13:53:48 GMT-07:00" duration-ms="19178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRadioReasonReturnOrFollowUp -->
+        <test-method signature="selectRadioTypeInPerson()[pri:13, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:53:48 GMT-07:00" name="selectRadioTypeInPerson" finished-at="2024-07-18T13:54:36 GMT-07:00" duration-ms="48512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRadioTypeInPerson -->
+        <test-method signature="selectRadioChooseAnotherDate()[pri:14, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:54:36 GMT-07:00" name="selectRadioChooseAnotherDate" finished-at="2024-07-18T13:54:50 GMT-07:00" duration-ms="13646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRadioChooseAnotherDate -->
+        <test-method signature="selectDatePicker()[pri:15, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:54:50 GMT-07:00" name="selectDatePicker" finished-at="2024-07-18T13:54:55 GMT-07:00" duration-ms="4733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDatePicker -->
+        <test-method signature="selectMonthFromCalendar()[pri:16, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:54:55 GMT-07:00" name="selectMonthFromCalendar" finished-at="2024-07-18T13:55:47 GMT-07:00" duration-ms="52750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMonthFromCalendar -->
+        <test-method signature="selectTimeSlot()[pri:17, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:55:47 GMT-07:00" name="selectTimeSlot" finished-at="2024-07-18T13:56:35 GMT-07:00" duration-ms="47214" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at web.tests.TestScripts.FrontDoorTestScript.selectTimeSlot(FrontDoorTestScript.java:522)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTimeSlot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:web.tests.TestScripts.FrontDoorTestScript@53fe15ff]" started-at="2024-07-18T13:56:35 GMT-07:00" name="tearDown" finished-at="2024-07-18T13:56:35 GMT-07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- web.tests.TestScripts.FrontDoorTestScript -->
+    </test> <!-- Web Login Tests -->
+  </suite> <!-- Login Test Suite -->
+</testng-results>

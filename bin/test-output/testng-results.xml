@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T12:01:56 GMT-07:00" name="Login Test Suite" finished-at="2024-07-17T12:12:03 GMT-07:00" duration-ms="606812">
+    <groups>
+    </groups>
+    <test started-at="2024-07-17T12:01:56 GMT-07:00" name="Web Login Tests" finished-at="2024-07-17T12:12:03 GMT-07:00" duration-ms="606812">
+      <class name="web.tests.TestScripts.FrontDoorTestScript">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:01:57 GMT-07:00" name="setUp" finished-at="2024-07-17T12:02:04 GMT-07:00" duration-ms="7030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToFrontDoorScreen()[pri:1, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:02:04 GMT-07:00" name="navigateToFrontDoorScreen" finished-at="2024-07-17T12:03:13 GMT-07:00" duration-ms="69636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToFrontDoorScreen -->
+        <test-method signature="testFrontDoorSignIn(java.lang.String,java.lang.String)[pri:2, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:03:14 GMT-07:00" name="testFrontDoorSignIn" data-provider="WebLoginDataFromExcel" finished-at="2024-07-17T12:03:53 GMT-07:00" duration-ms="39609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2ebtestncal1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pleasanton02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrontDoorSignIn -->
+        <test-method signature="feedbackBannerOnLandingPage()[pri:3, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:03:53 GMT-07:00" name="feedbackBannerOnLandingPage" finished-at="2024-07-17T12:04:09 GMT-07:00" depends-on-methods="web.tests.TestScripts.FrontDoorTestScript.testFrontDoorSignIn" duration-ms="15393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedbackBannerOnLandingPage -->
+        <test-method signature="clickOnAppointments_Care()[pri:4, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:04:09 GMT-07:00" name="clickOnAppointments_Care" finished-at="2024-07-17T12:04:10 GMT-07:00" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAppointments_Care -->
+        <test-method signature="navigateToScheduleAnAppointment()[pri:5, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:04:10 GMT-07:00" name="navigateToScheduleAnAppointment" finished-at="2024-07-17T12:04:48 GMT-07:00" duration-ms="38486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToScheduleAnAppointment -->
+        <test-method signature="goToscheduleMedicalAppointment()[pri:6, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:04:49 GMT-07:00" name="goToscheduleMedicalAppointment" finished-at="2024-07-17T12:06:45 GMT-07:00" duration-ms="116121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToscheduleMedicalAppointment -->
+        <test-method signature="selectPrimaryIconPlusForAppointment()[pri:7, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:06:45 GMT-07:00" name="selectPrimaryIconPlusForAppointment" finished-at="2024-07-17T12:07:21 GMT-07:00" depends-on-methods="web.tests.TestScripts.FrontDoorTestScript.goToscheduleMedicalAppointment" duration-ms="36618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPrimaryIconPlusForAppointment -->
+        <test-method signature="selectNextButtonInScheduleAppointmentPage()[pri:8, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:07:21 GMT-07:00" name="selectNextButtonInScheduleAppointmentPage" finished-at="2024-07-17T12:07:51 GMT-07:00" depends-on-methods="web.tests.TestScripts.FrontDoorTestScript.selectPrimaryIconPlusForAppointment" duration-ms="29451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNextButtonInScheduleAppointmentPage -->
+        <test-method signature="selectFacilityDropdown()[pri:9, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:07:51 GMT-07:00" name="selectFacilityDropdown" finished-at="2024-07-17T12:08:00 GMT-07:00" depends-on-methods="web.tests.TestScripts.FrontDoorTestScript.selectNextButtonInScheduleAppointmentPage" duration-ms="9652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFacilityDropdown -->
+        <test-method signature="selectNextButtonInScheduleAppointmentPageAgain()[pri:10, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:08:00 GMT-07:00" name="selectNextButtonInScheduleAppointmentPageAgain" finished-at="2024-07-17T12:08:31 GMT-07:00" duration-ms="30979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNextButtonInScheduleAppointmentPageAgain -->
+        <test-method signature="selectRadioIllnesOtherConcerns()[pri:11, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:08:31 GMT-07:00" name="selectRadioIllnesOtherConcerns" finished-at="2024-07-17T12:08:52 GMT-07:00" duration-ms="20096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRadioIllnesOtherConcerns -->
+        <test-method signature="selectRadioReasonReturnOrFollowUp()[pri:12, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:08:52 GMT-07:00" name="selectRadioReasonReturnOrFollowUp" finished-at="2024-07-17T12:09:11 GMT-07:00" duration-ms="19084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRadioReasonReturnOrFollowUp -->
+        <test-method signature="selectRadioTypeInPerson()[pri:13, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:09:11 GMT-07:00" name="selectRadioTypeInPerson" finished-at="2024-07-17T12:09:55 GMT-07:00" duration-ms="44207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRadioTypeInPerson -->
+        <test-method signature="selectRadioChooseAnotherDate()[pri:14, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:09:55 GMT-07:00" name="selectRadioChooseAnotherDate" finished-at="2024-07-17T12:10:08 GMT-07:00" duration-ms="13400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRadioChooseAnotherDate -->
+        <test-method signature="selectDatePicker()[pri:15, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:10:08 GMT-07:00" name="selectDatePicker" finished-at="2024-07-17T12:10:13 GMT-07:00" duration-ms="5253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDatePicker -->
+        <test-method signature="selectMonthFromCalendar()[pri:16, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:10:13 GMT-07:00" name="selectMonthFromCalendar" finished-at="2024-07-17T12:11:18 GMT-07:00" duration-ms="64579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMonthFromCalendar -->
+        <test-method signature="selectTimeSlot()[pri:17, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:11:18 GMT-07:00" name="selectTimeSlot" finished-at="2024-07-17T12:12:03 GMT-07:00" duration-ms="45123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTimeSlot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:web.tests.TestScripts.FrontDoorTestScript@1a4927d6]" started-at="2024-07-17T12:12:03 GMT-07:00" name="tearDown" finished-at="2024-07-17T12:12:03 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- web.tests.TestScripts.FrontDoorTestScript -->
+    </test> <!-- Web Login Tests -->
+  </suite> <!-- Login Test Suite -->
+</testng-results>

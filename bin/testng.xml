@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Test Suite">  <!--  parallel = "classes" thread-count = "2" -->
+	<listeners>
+    		<listener class-name="test.Utilities.ExtentReportManager" />
+    </listeners>
+
+    <test name="Web Login Tests">
+    
+ <!--   <parameter name="user" value="Admin"/>
+    <parameter name="pass" value="admin123"/> -->
+    
+        <classes>
+           <!-- <class name="TestNGTest.LoginTest"/> -->
+            <class name = "web.tests.TestScripts.FrontDoorTestScript" />
+          
+        <!--   <class name = "web.tests.TestScripts.TestWebTableExample" /> -->
+           <!-- <class name="TestNGTest.Title"/> -->
+        </classes>
+    </test>
+</suite>
+
+
+
